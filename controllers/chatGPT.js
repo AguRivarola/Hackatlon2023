@@ -7,7 +7,7 @@ exports.consulta = (req, res, message) => {
             // Agregamos a la conversación el mesansaje en cuestión
             prompt: message,
             temperature: 0.9,
-            max_tokens: 150,
+            max_tokens: 2048,
             top_p: 1,
             frequency_penalty: 0,
             presence_penalty: 0.6,
