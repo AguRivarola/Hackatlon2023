@@ -1,0 +1,48 @@
+.contenedor{
+    background-color: #5ccb5f;
+  }
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: #41b6ef;
+      padding: 10px;
+    }
+    
+    .nav-link {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    
+    .nav-link:hover {
+      color: #666;
+    }
+    
+   button{
+        background-color: #5ccb5f;
+      border-radius: 10px; /* Ajusta el valor según el grado de redondez que deseas */
+      padding: 5px 5px;
+      margin-left: 120px;
+      margin-top: 10px;
+    
+  }
+  
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+    }
+    
+  .logo {
+      width: 150px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+      height: 150px;
+    }
+  
+  .consulta{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+  
+  
